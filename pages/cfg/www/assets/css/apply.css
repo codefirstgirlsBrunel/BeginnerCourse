@@ -1,0 +1,93 @@
+/***DEFINE DEFAULT SETTINGS FOR WEB PAGES***/
+
+*{
+  margin:auto;
+}
+
+html {
+  background-image:url('../../images/BlackGrid3d.jpg');
+  /*background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);*/
+}
+
+body {
+	background-color: black;
+	width:70%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+.container-fluid {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+footer, header{
+  width:100%; height:auto;
+  position:relative;
+}
+
+header h1 {
+  color:ghostwhite;
+  /*Creates a 3D Effect with text*/
+  text-shadow: 0 1px 0 ghostwhite, 0 2px 0 ghostwhite,
+    0 3px 0 #aaa,0 4px 0 #aaa,0 5px 0 #999,0 6px 1px pink,
+    0 0px 3px pink,0 1px 3px pink,0 3px 5px ghostwhite,
+    0 5px 10px ghostwhite,0 5px 20px ghostwhite;
+	font-family:monospace;
+}
+
+header h4, h4 {
+  text-align:center;
+  color:hotpink;
+  font-family:cursive;
+  font-size:1.8em;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover, a:visited, a:focus {
+}
+
+
+#mainForm, #form1, #form2, .formFrame, #formList > .formText, #Header > header {
+	margin:auto;
+	display:block;
+}
+
+input, select, textarea {
+	width:50%;
+	color:ghostwhite;
+	background-color:transparent;
+	font-size:1em;
+}
+
+.buttons{
+	width:20%;
+}
+
+textarea{
+	height:3em;
+}
+
+
+ul, .formText, .formNum, #form2{
+  text-align: justify;
+  color: pink;
+  font-family:fantasy;
+  font-size:1.3em;
+  font-weight: normal;
+}
+
+#form2{
+	height:auto;
+}
+
+#mainButton{
+	height:auto; width:30%;
+	font-size:3em; background-color:ghostwhite;
+	color:pink;
+}
+
+

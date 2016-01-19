@@ -1,0 +1,296 @@
+html {
+  background-image:url(../../images/../images/hotpinkSutleGlitter.jpeg);
+  /*background-image: -webkit-linear-gradient(270deg,rgb(230,233,233) 0%,rgb(216,221,221) 100%);*/
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    width: 85%; background-image: none;
+    background-color: purple;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+.header{
+width:100%; height:35em;
+}
+
+.header img{
+	width:100%; height:100%; margin:auto;
+	position:relative; top: 25px; left: 25px; z-index: 1;
+}
+
+.header h1 {
+  color: hotpink; font-weight: bolder;
+  font-family:Chalkboard SE; font-size: 4em;
+	border:none; position:absolute; top: 7em; left:4em;
+}
+
+header h3 {
+  text-decoration: none;
+  text-align:center;
+  color:brown;
+  font-family:cursive;
+  font-size:3em;
+}
+
+ul > li{
+	display:inline-block; margin:auto;
+}
+
+#left {
+	width:20%; height:8em; margin-left:0; position:relative;
+	bottom:6em; left:7em;
+}
+
+#right {
+	width:35%; height:8em; margin-right:0; margin-left:100%; position:relative;
+	bottom:2em; left:6em;
+}
+
+#ContentListDiv {
+	width:100%; height:auto; border:none;
+}
+
+#ContentListDiv ul{
+	margin: auto; 
+}
+
+#ContentListDiv > ul li {
+	display:inline-block; width:40%; height:20em; border:5px dotted gold; 
+	border-radius:100%; padding:2.5em 3em 3em 2.5em;
+}
+
+
+#ContentListDiv ul > li > figure  {
+	width:100%; height:inherit;
+	border-radius:50px;
+}
+
+#ContentListDiv ul > li > figure > img {
+	width:100%; height:inherit;border-radius:50%; border: 3px dotted ghostwhite;
+}
+
+figcaption {
+	color:teal; font-family:chalkboard;
+	font-size:2em; text-align:center;
+}
+
+
+
+
+
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover, a:visited, a:focus {
+}
+
+#iframe {
+	width:90%; height:100%;
+	border: 2em dotted silver;
+}
+
+iframe {
+	width:100%; height:100%;
+}
+/*****************SPECIFICALLY FOR MY PAGE******************************/
+
+.headerImage{
+  width:80%; height:25em;
+}
+
+.headerImage > .headImg {
+  width:100%; height:30em;
+}
+
+.Header > header{
+  width:100%; height:auto;
+  display: block;
+}
+
+header h1 {
+  text-align:center;
+  font-family:Chalkboard SE, Hiragino Kaku Gothic StdN;
+  font-weight: bolder; 
+  font-size:5em; border: 10px dashed silver;
+  color:palevioletred;
+  
+  /*Creates a 3D Effect with text*/
+  text-shadow: 0 1px 0 ghostwhite, 0 2px 0 ghostwhite,
+    0 3px 0 #aaa,0 4px 0 #aaa,0 5px 0 #999,0 6px 1px pink,
+    0 0px 3px pink,0 1px 3px pink,0 3px 5px pink,
+    0 5px 10px white,0 5px 20px white;
+}
+
+
+
+#specialH2{
+  text-align: center;
+  font-weight: bolder;
+  color:teal;
+  font-family:Chalkduster;
+  font-size:3em;
+}
+
+#divider {
+  width=100%; display:block;
+  border-bottom: 0.5em dashed silver;
+}
+
+.footer{
+  display:block;
+  position:relative;
+  align-self: center;
+  width:100%; height:5em;
+}
+
+.footerList{
+  text-align: center;
+  font-weight:bolder;
+  font-size: 1.7em;
+  font-family:Chalkduster;
+  width:100%; height:inherit;
+}
+
+.footerList .fitem {
+  display: inline-block;
+  width:18%; height:inherit;
+  border-left: 0.2em dashed silver;
+  border-right: 0.2em dashed silver;
+  
+  
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	font: 1.2em 'MisoRegular';
+}
+/******************NAVIGATION BAR*******************************/
+
+/*Define navigation box*/
+.menuNavigation {
+  display:block;
+  height:auto; width=100%;
+}
+
+/*Define the shape of boxes holding the first lists of navigatio items*/
+.mainNav{
+  display:block;
+  height:6em; width=100%;
+  align-self: center;
+  align-content: center;
+  padding-right: 9px;
+  position: relative;
+}
+
+/*Make the drop down navigation menu invisble on focus from start*/
+.dropnav:focus {
+  outline: 0;
+}
+
+.dropDown{
+  display:inline-block;
+  width:18%; height:inherit;
+  padding-right: 2px;
+  position:relative;
+  margin-top:0.5em;
+  text-align:center;
+  
+  font-weight:bolder;
+  font-size: 1.5em;
+  font-family:Chalkduster;
+  
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	font: 1.2em 'MisoRegular';
+}
+/*********************************** Main nav bar CSS*/
+
+
+/****sub naigation bars: drop down menus********/
+/*Define the design of the drop down menus but dont show it yet. SET DISPLAY:NONE*/
+.dropnav{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  list-style:none; 
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  
+}
+
+/*Display it drop down navigation menu when someone hovers on each main navigation option with a mouse*/
+.dropDown:hover > .dropnav{
+  color: #262626;
+  visibility:visible;
+  display:inline;
+  text-decoration: none;
+  background-color:inherit;
+  text-align: center;
+}
+/****sub naigation bars: drop down menus********/
+
+/*****************SPECIFICALLY FOR MY PAGE******************************/
+.css-carousel {
+  width: 50%;
+  border: 1em dashed silver;
+  height: 30em; /* Height of images */
+  position:relative;
+}
+
+.css-carousel > .css-img {
+  width:100%; height:inherit;
+  padding-bottom: 2.1em;
+  position: absolute;
+  left: 0; right: 0;
+  opacity: 0;
+  -webkit-animation: css-carousel-fade 20s linear infinite;
+  animation: css-carousel-fade 20s linear infinite;
+}
+
+
+.css-carousel .css-img:nth-child(2) {
+	animation-delay: 5s;
+}
+.css-carousel .css-img:nth-child(3) {
+	-webkit-animation-delay: 10s;
+	-moz-animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	animation-delay: 10s;
+}
+.css-carousel .css-img:nth-child(4) {
+	-webkit-animation-delay: 15s;
+	-moz-animation-delay: 15s;
+	-ms-animation-delay: 15s;
+	animation-delay: 15s;
+}
+
+@-webkit-keyframes css-carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@-moz-keyframes css-carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@-ms-keyframes css-carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@keyframes css-carousel-fade {
+	0%, 20%, 100% { opacity: 0; }
+	5%, 15% { opacity: 1;}
+}
+
+

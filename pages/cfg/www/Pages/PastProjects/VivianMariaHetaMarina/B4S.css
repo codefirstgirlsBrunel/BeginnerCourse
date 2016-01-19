@@ -1,0 +1,20 @@
+*{
+	font-family: "arial", "sans-serif";
+}
+
+input{
+	border: 3px solid coral;
+	padding: 20px;
+	font-size: 18px;
+	color: black;
+	width: 300px;
+	height: 20px;
+}
+
+body{
+	background-image: url(http://www.goodbookfairy.com/wp-content/uploads/2014/02/books-background-pastel1.gif);
+}
+
+img{
+	border: 3px solid coral;
+}

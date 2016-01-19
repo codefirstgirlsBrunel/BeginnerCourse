@@ -1,0 +1,42 @@
+
+
+<head>
+<titl<!DOCTYPE html>e>code first girls brunel university uxbridge
+</head>
+<body>
+<h1><centre><b>HTML TAGS, ATTRIBUTES AND ELEMENTS</b></centre></h1>
+
+<p>This document introduces you to the basic html tags used for structuring contents of html web pages. It shows how to add texts, headings, lists, tables, hyperlinks and <br>
+	images to webpages. Go through the code used in producing this webpage and try reproducing it to your own specifications, HTML tags and attributes are a lot more <br>
+	than those stated here, but for an introductory crash course, these are neccessary.</p>
+
+	<h1>Tags</h1>
+	<p>The basic structure of an HTML document includes tags, which surround content and apply meaning to it. The purpose of HTML is to apply meaning, not presentation,<br>
+		and this ecample has now defined some fundamental elements of a web page.</p>
+
+
+		<h2>Closing Tags</h2>
+		<p>The &lt;/body&gt; and &lt;/html&gt; put a close to their respective elements (more on elements in a moment).</p>
+
+	<h1>Attributes</h1>
+	<p>Tags can also have <em>attributes</em>, which are extra bits of information. Attributes appear inside the opening tag and their values sit inside quotation marks. They look <br>
+		something ling &lt;tag attribute="value"&gt;Margarine&lt;/tag&gt;.
+	</p>
+
+	<h1>Elements</h1>
+	<p>Tags tend not to do much more than mark the beginning and the end of an element. Elements are the bits that make up web pages. You would say, for example, that <br>
+		everything that is in between (and inlcudes) the &lt;body&gt; and &lt;/body&gt; tags is the body element. As another example, whereas "&gt;title&lt;" are <em>tags</em>, "&lt;title&gt;Ladies Geeking Out&lt;title&gt; is a title <em>element.</em>
+
+	</p>
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>

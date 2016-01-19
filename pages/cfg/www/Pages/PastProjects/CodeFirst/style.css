@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+h1{
+	text-align: center;
+	color: pink;
+}
+
+header, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, li {
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+	text-align: center;   
+
+}
+
+
+div.img{
+   
+    height: auto;
+    width: auto;
+    float: center;
+    text-align: center;
+}
+
+div.logo{
+	height: auto;
+    width: auto;
+    float: center;
+    text-align: center;
+
+}
+
+div.form{
+    text-align: center;
+
+    
+
+}
+
+body.fm{
+    background-image: url("pink.jpg"); 
+    background-size: cover;
+
+
+}
+
+p.join{
+    color: pink;
+    
+
+}
+

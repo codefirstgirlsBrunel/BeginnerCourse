@@ -1,0 +1,327 @@
+<html>
+	<head>
+	</head>
+	
+	<body>
+	<h2> HTML FORMS: COLLECTING AND STORING INFORMATION ONLINE.</h2>
+
+
+<p>The &lt;form&gt; tag is used to collect user input like in apllication forms, registration forms and many other web interfaces used for authentication, data collection, data input and retrieval tasks. The &lt;form&gt; tag defines an HTML form like:</p>
+
+<pre><code>&lt;form&gt;
+    ...stuff to do here
+&lt;/form&gt;
+</code></pre>
+
+<h3> HTML FORM ELEMENTS</h3>
+
+
+<p>HTML Form elements are used to specify what kind of method is used to collect form information. Information or data can be collected as:</p>
+
+<ol>
+<li>inputs (&lt;input&gt;)<br></li>
+<li>textareas (&lt;textarea&gt;, where you might be asked to write a cover letter or a speech)<br></li>
+<li>a selection option from a drop-down menu (&lt;select&gt;, &lt;value&gt;)<br></li>
+<li>a list of options from which one can be choosen (&lt;option&gt;)<br></li>
+<li>submission or uploading your data to a database (&lt;submit&gt;)<br></li>
+</ol>
+
+
+<h3>The &lt;input&gt; Element.</h3>
+
+
+<p>The &lt;input&gt; element is the most important form element. It is used to specify that a specific portion of HTML page is expecting some sort of user input. Types of user inputs are of various variations (text, files, numbers, emails, addresses, videos, urls etc) whic also means that the &lt;input&gt; element has many variations, depending on the type user data needed. The input element has the name, type, and initial value of input specified within its tags.</p>
+
+<pre><code>&lt;form&gt;
+    First Name: (A TEXT INPUT)
+    &lt;input type='text' name='FirstName'&gt;&lt;/input&gt;
+
+    Phone Number: (A NUMERIC INPUT)
+    &lt;input type='num' name='Phone Number'&gt;&lt;/input&gt;
+
+    Email Address: (A email INPUT)
+    &lt;input type='email' name='Email'&gt;&lt;/input&gt;
+
+    Your Website: (A URL INPUT)
+    &lt;input type='url' name='website'&gt;&lt;/input&gt;
+
+    Gender: (A URL INPUT)
+    &lt;input type='radio' name='gender'&gt;Male&lt;/input&gt;
+
+    CV: (A File INPUT)
+    &lt;input type='file' name='File'&gt;&lt;/input&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p>ALL Input Types for type = '' '' :</p>
+
+<p>button
+checkbox, color
+date , datetime , datetime-local
+email , file, hidden
+image, month
+number , password, radio, range
+reset, search, submit
+tel, text, time , url, week</p>
+
+<p><form>
+    First Name: (A TEXT INPUT)<br>
+    <input type='text' name='FirstName'></input>
+    <br><br>
+    Phone Number: (A NUMERIC INPUT)<br>
+    <input type='num' name='Phone Number'></input>
+    <br><br>
+    Email Address: (A email INPUT)<br>
+    <input type='email' name='Email'></input>
+    <br><br>
+    Your Website: (A URL INPUT)<br>
+    <input type='url' name='website'></input>
+    <br><br>
+    CV: (A File INPUT)
+    <input type='file' name='File'></input>
+</form></p>
+
+<p><br></p>
+
+<h3>The &lt;textarea&gt; Element</h3>
+
+
+<p>This is used to specify a mini plain text editor for collecting worded text. This is mainly used to collect staements online, enquiries, complaints, generally things that involve a story or narrative from users. The textarea element has the name, number of rows and cols specified in its opening tags.</p>
+
+<pre><code>&lt;form&gt;
+    Tell Us a Bit about yourself: (TEXTAREA INPUT)
+    &lt;textarea name='Onlinestalking' cols='30' rows='10'&gt;&lt;/textarea&gt;
+
+    Enquiries: (TEXTAREA INPUT)
+    &lt;textarea name='enquiries' cols='30' rows='10'&gt;&lt;/textarea&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p><form>
+    Tell Us a Bit about yourself: (TEXTAREA INPUT)<br>
+    <textarea name='Onlinestalking' cols='30' rows='10'></textarea>
+    <br><br>
+    Enquiries: (TEXTAREA INPUT)<br>
+    <textarea name='enquiries' cols='30' rows='10'></textarea>
+</form></p>
+
+<h3>The &lt;select&gt;, &lt;option&gt; pairs</h3>
+
+
+<pre><code>&lt;select name="cfgCourses"&gt;
+  &lt;option value="html"&gt;HTML&lt;/option&gt;
+  &lt;option value="css"&gt;CSS&lt;/option&gt;
+  &lt;option value="ruby"&gt;RUBY&lt;/option&gt;
+  &lt;option value="python"&gt;Python&lt;/option&gt;
+&lt;/select&gt;
+</code></pre>
+
+<p>What Code First Girls Course are you Interested in in 2016?:<br>
+<select name="cfgCourses">
+  <option value="html">HTML</option>
+  <option value="css">CSS</option>
+  <option value="ruby">RUBY</option>
+  <option value="python">Python</option>
+</select></p>
+
+<p>A &lt;datalist&gt; tag can also be used to specify checkboxes and radio buttons for choices.
+<br><br></p>
+
+<p><datalist type='radio'  name="Gender">
+  <input type='radio' name='gender', value = 'Male'>Male</input>
+  <input type='radio' name='gender', value = 'Female'>Female</input>
+</datalist></p>
+
+<p><br><br>
+<datalist type='checkbox'  name="cfgCourses">
+  <input type='checkbox' name='gender', value = 'Male'>Male</input>
+  <input type='checkbox' name='gender', value = 'Female'>Female</input>
+</datalist>
+<br><br><br></p>
+
+<pre><code>&lt;form&gt;
+    First Name: (A TEXT INPUT)
+    &lt;input type='text' name='FirstName'&gt;&lt;/input&gt;
+
+    Phone Number: (A NUMERIC INPUT)
+    &lt;input type='num' name='Phone Number'&gt;&lt;/input&gt;
+
+    Phone Number: (A NUMERIC INPUT)
+    &lt;input type='num' name='Phone Number'&gt;&lt;/input&gt;
+&lt;/form&gt;
+</code></pre>
+
+<h3>GROUP COLLECTED DATA BY USER</h3>
+
+
+<p>By using the &lt;fieldet&gt; tag and &lt;legend&gt; we are able to group user information.</p>
+
+<pre><code>&lt;form action="action_page.php"&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;Personal information:&lt;/legend&gt;
+    First name:&lt;br&gt;
+    &lt;input type="text" name="firstname" value="Mickey"&gt;
+    &lt;br&gt;
+    Last name:&lt;br&gt;
+    &lt;input type="text" name="lastname" value="Mouse"&gt;
+    &lt;br&gt;&lt;br&gt;
+    &lt;input type="submit" value="Submit"&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p><form action="action_page.php">
+  <fieldset>
+    <legend> CIA Agent: Maria's Personal information:</legend>
+    <img src = 'http://img4.wikia.nocookie.net/__cb20130517082101/powerpuff/images/7/7b/Bubbles-pic.png' style="width:20 height:10px"/>
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse">
+    <br>
+    Phone Number:<br>
+    <input type="num" name="Phonenumber" value="+447">
+    <br>
+    Email:<br>
+    <input type="email" name="Email Address" value="me@example.com">
+    <br><br>
+    <center><input type="submit" value="Submit"></center>
+  </fieldset>
+</form>
+<br><br><br></p>
+
+<h3>Making Input Compulsory [required]</h3>
+
+
+<p>Specifies that an input field must be filled out before submitting the form.</p>
+
+<pre><code>&lt;form&gt;
+  Name: &lt;input type="text" name="name" required&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p><br><br><br></p>
+
+<h3>User Authentications with &lt;keygen&gt; element </h3>
+
+
+<pre><code>&lt;form action="demo_form.asp"&gt;
+  Username: &lt;input type="text" name="usrname" required&gt;
+  Password: &lt;input type="text" name="password" required&gt; 
+  Encryption Protocol: &lt;keygen name="security"&gt;
+  &lt;input type="submit" value = 'Gnerate User Key'&gt;
+&lt;/form&gt;
+</code></pre>
+
+<form action="demo_form.asp">
+  Username:<br> <input type="text" name="usrname" required><br>
+  <br><br>
+  Password: <br> <input type="text" name="password" required><br>
+  <br><br>
+  Encryption Protocol: <br> <keygen name="security"><br>
+  <br><br>
+  <center><input type="submit" value = 'Gnerate User Key'></center>
+  <br>
+</form>
+
+<p><h2> IFRAMES, MEDIAS AND CONTEXT MENU. </h1>
+<br></p>
+
+<p><h2>IFRAMES</h2><br></p>
+
+<p>An iframe is used to display a web page within a web page. It is really easy to create.</p>
+
+<pre><code>&lt;iframe src= 'url of website u wish to embed' width:50% height:'200'&gt;
+&lt;/iframe&gt;
+</code></pre>
+
+<p><iframe src = "http://www.cssdesk.com/" width='100%' height='400'; style="border:2em dotted teal;"></iframe></p>
+
+<p><h2>AUDIOS, VIDEOS</h2>
+<h3> AUDIO </h3>
+To play an audio object:</p>
+
+<pre><code>&lt;audio controls&gt;
+  &lt;source src="horse.ogg" type="audio/ogg"&gt;
+  &lt;source src="horse.mp3" type="audio/mpeg"&gt;
+  &lt;source src="forrest_gump.mp4" type="video/mp4"&gt;
+  &lt;source src="forrest_gump.ogg" type="video/ogg"&gt;
+Your browser does not support the audio element.
+&lt;/audio&gt;
+</code></pre>
+
+<p>To play a video:</p>
+
+<pre><code>&lt;video width="320" height="240" controls autoplay&gt;
+  &lt;source src="movie.mp4" type="video/mp4"&gt;
+  &lt;source src="movie.ogg" type="video/ogg"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+</code></pre>
+
+<p>To embed a plugin or app:</p>
+
+<pre><code>&lt;object width="400" height="400" data="helloworld.swf"&gt;
+&lt;/object&gt;
+
+&lt;object data="horse.wav"&gt;
+  &lt;param name="autoplay" value="true"&gt;
+&lt;/object&gt;
+</code></pre>
+
+<p><h2> Create a Context Menu</h2>
+The &lt;menu&gt; tag defines a list/menu of commands.</p>
+
+<p>The &lt;menu&gt; tag is used for context menus, toolbars and for listing form controls and commands. It take the attributes type =" " (popup, toolbar or context), label = "Visible name of menu item" and the event attribute onclick = " "(window.open:opens a url, window.location.reload:refreshes a page, mailto: send an email.)</p>
+
+<p><br><br></p>
+
+<pre><code>&lt;menu type="context" id="mymenu"&gt;
+
+    &lt;menuitem label="Refresh" onclick="window.location.reload();"
+    icon="ico_reload.png"&gt;
+    &lt;/menuitem&gt;
+
+    &lt;menu label="Share on..."&gt;
+
+            &lt;menuitem label="Twitter" icon="ico_twitter.png"
+            onclick="window.open('//twitter.com/intent/tweet
+            text='+window.location.href);"&gt;
+            &lt;/menuitem&gt;
+
+            &lt;menuitem label="Facebook" icon="ico_facebook.png"
+            onclick="window.open('//facebook.com/sharer/sharer.php
+            u='+window.location.href);"&gt;
+         &lt;/menuitem&gt;
+
+    &lt;/menu&gt;
+
+    &lt;menuitem label="Email This Page"
+    onclick="window.location='mailto:?body='+window.location.href;"&gt;
+    &lt;/menuitem&gt;
+&lt;/menu&gt;
+</code></pre>
+
+<p><br><br></p>
+
+<p><menu type="context" id="mymenu" style = "display: block; list-style-type: disc; padding-left: 40px; border:5px solid white;">
+    <menuitem label="Refresh" onclick="window.location.reload();"
+    icon="ico_reload.png">
+    </menuitem>
+    <menu label="Share on...">
+            <menuitem label="Twitter" icon="ico_twitter.png"
+            onclick="window.open('//twitter.com/intent/tweet
+            text='+window.location.href);">
+            </menuitem>
+            <menuitem label="Facebook" icon="ico_facebook.png"
+            onclick="window.open('//facebook.com/sharer/sharer.php
+            u='+window.location.href);">
+         </menuitem>       <br/>
+    </menu>
+    <menuitem label="Email This Page"
+    onclick="window.location='mailto:?body='+window.location.href;">
+    </menuitem>
+</menu></p>
+	</body>
+</html>
